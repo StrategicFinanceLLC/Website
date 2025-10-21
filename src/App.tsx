@@ -176,7 +176,7 @@ export default function App() {
             <ul className="mt-4 list-disc pl-6 leading-7 text-gray-700">
               <li>Strengths: cash control, pricing and margin, unit economics, and making the business visible.</li>
               <li>Tools: Excel, Power BI, Python. SQL when useful, not for sport.</li>
-              <li>Location: Charleston, SC. Flexible for remote and on-site.</li>
+              <li>Location: Mt. Pleasant, SC. Flexible for remote and on-site.</li>
             </ul>
           </div>
           <div className="md:pl-4">
@@ -288,7 +288,7 @@ export default function App() {
             </div>
             <div>
               <div>Strategic Finance LLC</div>
-              <div className="text-xs">Charleston, SC</div>
+              <div className="text-xs">Mt. Pleasant, SC</div>
             </div>
           </div>
           <div className="flex gap-5">
@@ -356,7 +356,7 @@ function SEO() {
     name: "Strategic Finance LLC",
     url: "https://strategicfinance.llc",
     areaServed: "United States",
-    address: { "@type": "PostalAddress", addressLocality: "Charleston", addressRegion: "SC" },
+    address: { "@type": "PostalAddress", addressLocality: "Mt. Pleasant", addressRegion: "SC" },
     telephone: "+1-214-923-6834",
     sameAs: ["https://www.linkedin.com/company/strategicfinance-llc"],
   };
@@ -366,7 +366,7 @@ function SEO() {
       <title>Strategic Finance LLC — Fractional CFO for SaaS & Tech-enabled Services</title>
       <meta
         name="description"
-        content="Fractional CFO services: monthly close, cash runway, FP&A, pricing, unit economics, Power BI dashboards, and SOC 2 readiness. Charleston, SC • Remote-friendly."
+        content="Fractional CFO services: monthly close, cash runway, FP&A, pricing, unit economics, Power BI dashboards, and SOC 2 readiness. Mt. Pleasant, SC • Remote-friendly."
       />
       {/* eslint-disable-next-line react/no-danger */}
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
