@@ -214,3 +214,8 @@ a:focus-visible, .button:focus-visible {
   .nav a { font-size: 0.9rem; }
   .card, .steps li { padding: 1.25rem; }
 }
+
+/* QuickBooks ProAdvisor badges (Leadership); Intuit rules: smaller than our logo, never in the header */
+.badges { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
+.badges img { width: 88px; height: auto; }
+.site-footer .tm { font-size: 0.75rem; opacity: 0.75; margin-top: 8px; }
