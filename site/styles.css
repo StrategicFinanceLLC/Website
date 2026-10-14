@@ -66,11 +66,13 @@ a:focus-visible, .button:focus-visible {
   padding-top: 0.9rem; padding-bottom: 0.9rem;
 }
 .wordmark {
+  display: inline-flex; align-items: center; gap: 0.6rem;
   font-family: var(--serif);
   font-size: 1.25rem; font-weight: 600; letter-spacing: 0.02em;
   color: #fff; text-decoration: none;
 }
 .wordmark:hover { color: #fff; }
+.brand-mark { display: block; width: 60px; height: 60px; flex-shrink: 0; }
 .nav { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0.25rem 1.5rem; }
 .nav a {
   color: #e6e9ee; text-decoration: none;
@@ -210,12 +212,15 @@ a:focus-visible, .button:focus-visible {
   .wrap { padding: 0 1.15rem; }
   .header-inner { padding-top: 0.7rem; padding-bottom: 0.7rem; }
   .wordmark { font-size: 1.1rem; }
+  .brand-mark { width: 48px; height: 48px; }
   .nav { gap: 0.1rem 1.1rem; }
   .nav a { font-size: 0.9rem; }
   .card, .steps li { padding: 1.25rem; }
 }
 
-/* QuickBooks ProAdvisor badges (Leadership); Intuit rules: smaller than our logo, never in the header */
+/* QuickBooks ProAdvisor badges (Leadership); Intuit rules: smaller than our logo, never in the header.
+   Header mark renders at 60px (48px on mobile); badges stay below that at 52px (40px on mobile). */
 .badges { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 18px; }
-.badges img { width: 88px; height: auto; }
+.badges img { width: 52px; height: auto; }
 .site-footer .tm { font-size: 0.75rem; opacity: 0.75; margin-top: 8px; }
+@media (max-width: 30rem) { .badges img { width: 40px; } }

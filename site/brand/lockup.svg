@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 120" role="img" aria-label="Strategic Finance">
+<g>
+  <defs>
+    <radialGradient id="w" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#ffffff"/><stop offset=".7" stop-color="#eef0f3"/><stop offset="1" stop-color="#c9ced6"/>
+    </radialGradient>
+    <radialGradient id="b" cx="36%" cy="30%" r="72%">
+      <stop offset="0" stop-color="#4a5a75"/><stop offset=".45" stop-color="#14233c"/><stop offset="1" stop-color="#0a1322"/>
+    </radialGradient>
+  </defs>
+  <g stroke="#9a6b1f" stroke-width="3" stroke-linecap="square">
+    <line x1="35" y1="4" x2="35" y2="116"/><line x1="85" y1="4" x2="85" y2="116"/>
+    <line x1="4" y1="35" x2="116" y2="35"/><line x1="4" y1="85" x2="116" y2="85"/>
+  </g>
+  <circle cx="35" cy="35" r="23.5" fill="url(#w)" stroke="#9aa3b0" stroke-width="1"/>
+  <circle cx="85" cy="35" r="23.5" fill="url(#b)"/>
+  <circle cx="35" cy="85" r="23.5" fill="url(#b)"/>
+  <circle cx="85" cy="85" r="23.5" fill="url(#w)" stroke="#9aa3b0" stroke-width="1"/>
+</g>
+<text x="140" y="56" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#14233c">Strategic</text>
+<text x="140" y="102" font-family="Georgia, 'Times New Roman', serif" font-size="40" fill="#14233c">Finance</text>
+</svg>
