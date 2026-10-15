@@ -227,3 +227,4 @@ a:focus-visible, .button:focus-visible {
 
 /* Our Mark page */
 .mark-large { width: 100%; max-width: 18rem; height: auto; display: block; }
+.nav a[aria-current="page"] { color: var(--accent-light); }
