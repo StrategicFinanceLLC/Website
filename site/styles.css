@@ -226,5 +226,6 @@ a:focus-visible, .button:focus-visible {
 @media (max-width: 30rem) { .badges img { width: 40px; } }
 
 /* Our Mark page */
-.mark-large { width: 100%; max-width: 18rem; height: auto; display: block; }
+.mark-board { width: 100%; max-width: 20rem; height: auto; display: block; }
+.mark-close { margin: 2.5rem 0 0; max-width: 44rem; font-size: 1.125rem; color: var(--charcoal); }
 .nav a[aria-current="page"] { color: var(--accent-light); }
