@@ -224,3 +224,6 @@ a:focus-visible, .button:focus-visible {
 .badges img { width: 52px; height: auto; }
 .site-footer .tm { font-size: 0.75rem; opacity: 0.75; margin-top: 8px; }
 @media (max-width: 30rem) { .badges img { width: 40px; } }
+
+/* Our Mark page */
+.mark-large { width: 100%; max-width: 18rem; height: auto; display: block; }
