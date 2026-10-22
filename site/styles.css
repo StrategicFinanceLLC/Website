@@ -190,7 +190,9 @@ a:focus-visible, .button:focus-visible {
   min-width: 4.5rem;
   font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted);
 }
-.contact-list a { font-family: var(--serif); font-size: 1.35rem; overflow-wrap: anywhere; }
+.contact-list a, .contact-value { font-family: var(--serif); font-size: 1.35rem; overflow-wrap: anywhere; }
+.contact-value { color: var(--navy); }
+.contact-note { margin: 1.5rem 0 0; max-width: 44rem; color: var(--charcoal); }
 
 /* CTA rows and plain link lists (App / Support pages) */
 .cta-row { display: flex; flex-wrap: wrap; gap: 1rem; margin: 0.5rem 0 2rem; }
@@ -229,3 +231,11 @@ a:focus-visible, .button:focus-visible {
 .mark-board { width: 100%; max-width: 20rem; height: auto; display: block; }
 .mark-close { margin: 2.5rem 0 0; max-width: 44rem; font-size: 1.125rem; color: var(--charcoal); }
 .nav a[aria-current="page"] { color: var(--accent-light); }
+
+/* Privacy and Terms pages */
+.policy { max-width: 48rem; }
+.policy h2 { font-size: 1.4rem; margin-top: 2.5rem; }
+.policy ul { padding-left: 1.25rem; margin: 0 0 1rem; }
+.policy li + li { margin-top: 0.4rem; }
+.policy ul.contact-list { padding-left: 0; }
+.site-footer a[aria-current="page"] { color: var(--accent-light); }
