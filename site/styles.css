@@ -229,3 +229,14 @@ a:focus-visible, .button:focus-visible {
 .mark-board { width: 100%; max-width: 20rem; height: auto; display: block; }
 .mark-close { margin: 2.5rem 0 0; max-width: 44rem; font-size: 1.125rem; color: var(--charcoal); }
 .nav a[aria-current="page"] { color: var(--accent-light); }
+
+/* Hero: two columns on desktop so the right side isn't empty */
+.hero-grid { display: grid; gap: 2.5rem; align-items: center; }
+@media (min-width: 60rem) { .hero-grid { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); } }
+.hero-aside {
+  border-left: 3px solid var(--accent-light);
+  padding: 0.25rem 0 0.25rem 1.5rem;
+  color: #c9cfd8;
+}
+.hero-aside-label { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; color: var(--accent-light); margin-bottom: 0.5rem; }
+.hero-aside-title { font-family: var(--serif); color: #fff; font-size: 1.5rem; margin-bottom: 0.5rem; }
