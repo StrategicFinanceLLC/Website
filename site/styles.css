@@ -192,6 +192,10 @@ a:focus-visible, .button:focus-visible {
 .client-list { flex-direction: column; margin-top: 1rem; }
 .client-list a { font-family: var(--serif); font-size: 1.2rem; }
 .client-note { color: var(--muted); }
+.client-logos { list-style: none; margin: 1.5rem 0 0; padding: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 2rem 3.5rem; }
+.client-logos img { display: block; height: 44px; width: auto; max-width: 100%; }
+.client-logos img.logo-tall { height: 60px; }
+@media (max-width: 600px) { .client-logos { gap: 1.5rem 2.5rem; } .client-logos img { height: 36px; } .client-logos img.logo-tall { height: 48px; } }
 
 /* Contact */
 .contact-list { list-style: none; margin: 2rem 0 0; padding: 0; display: grid; gap: 1rem; }
