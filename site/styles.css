@@ -254,3 +254,6 @@ a:focus-visible, .button:focus-visible {
 }
 .hero-aside-label { text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.8rem; color: var(--accent-light); margin-bottom: 0.5rem; }
 .hero-aside-title { font-family: var(--serif); color: #fff; font-size: 1.5rem; margin-bottom: 0.5rem; }
+
+.client-logos a.client-name { display: block; font-size: 1.35rem; font-weight: 600; line-height: 44px; color: inherit; text-decoration: none; }
+@media (max-width: 600px) { .client-logos a.client-name { font-size: 1.15rem; line-height: 36px; } }
